@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED47BA671DD13D2A0073DA79 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED47BA661DD13D2A0073DA79 /* APIRequestManager.swift */; };
+		ED6A0D1E1DD2C8B30011B8AC /* ForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A0D1D1DD2C8B30011B8AC /* ForecastCollectionViewCell.swift */; };
+		ED6A0D201DD37C5F0011B8AC /* DataTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6A0D1F1DD37C5F0011B8AC /* DataTypeManager.swift */; };
+		EDFB1F721DD12339006A9523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB1F711DD12339006A9523 /* AppDelegate.swift */; };
+		EDFB1F741DD12339006A9523 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB1F731DD12339006A9523 /* ViewController.swift */; };
+		EDFB1F771DD12339006A9523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFB1F751DD12339006A9523 /* Main.storyboard */; };
+		EDFB1F791DD12339006A9523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFB1F781DD12339006A9523 /* Assets.xcassets */; };
+		EDFB1F7C1DD12339006A9523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFB1F7A1DD12339006A9523 /* LaunchScreen.storyboard */; };
+		EDFB1F881DD12709006A9523 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB1F871DD12709006A9523 /* Weather.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED47BA661DD13D2A0073DA79 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
+		ED6A0D1D1DD2C8B30011B8AC /* ForecastCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED6A0D1F1DD37C5F0011B8AC /* DataTypeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTypeManager.swift; sourceTree = "<group>"; };
+		EDFB1F6E1DD12339006A9523 /* ThreeWeatherManSeeTheFuture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeWeatherManSeeTheFuture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFB1F711DD12339006A9523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDFB1F731DD12339006A9523 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDFB1F761DD12339006A9523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDFB1F781DD12339006A9523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDFB1F7B1DD12339006A9523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDFB1F7D1DD12339006A9523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFB1F871DD12709006A9523 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFB1F6B1DD12339006A9523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDFB1F651DD12338006A9523 = {
+			isa = PBXGroup;
+			children = (
+				EDFB1F701DD12339006A9523 /* ThreeWeatherManSeeTheFuture */,
+				EDFB1F6F1DD12339006A9523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDFB1F6F1DD12339006A9523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB1F6E1DD12339006A9523 /* ThreeWeatherManSeeTheFuture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDFB1F701DD12339006A9523 /* ThreeWeatherManSeeTheFuture */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB1F711DD12339006A9523 /* AppDelegate.swift */,
+				EDFB1F861DD1237F006A9523 /* Manager */,
+				EDFB1F851DD12367006A9523 /* Models */,
+				EDFB1F841DD1235D006A9523 /* Controllers */,
+				EDFB1F831DD12356006A9523 /* Views */,
+				EDFB1F781DD12339006A9523 /* Assets.xcassets */,
+				EDFB1F7D1DD12339006A9523 /* Info.plist */,
+			);
+			path = ThreeWeatherManSeeTheFuture;
+			sourceTree = "<group>";
+		};
+		EDFB1F831DD12356006A9523 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB1F751DD12339006A9523 /* Main.storyboard */,
+				EDFB1F7A1DD12339006A9523 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EDFB1F841DD1235D006A9523 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB1F731DD12339006A9523 /* ViewController.swift */,
+				ED6A0D1D1DD2C8B30011B8AC /* ForecastCollectionViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EDFB1F851DD12367006A9523 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB1F871DD12709006A9523 /* Weather.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EDFB1F861DD1237F006A9523 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ED47BA661DD13D2A0073DA79 /* APIRequestManager.swift */,
+				ED6A0D1F1DD37C5F0011B8AC /* DataTypeManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDFB1F6D1DD12339006A9523 /* ThreeWeatherManSeeTheFuture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFB1F801DD12339006A9523 /* Build configuration list for PBXNativeTarget "ThreeWeatherManSeeTheFuture" */;
+			buildPhases = (
+				EDFB1F6A1DD12339006A9523 /* Sources */,
+				EDFB1F6B1DD12339006A9523 /* Frameworks */,
+				EDFB1F6C1DD12339006A9523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeWeatherManSeeTheFuture;
+			productName = ThreeWeatherManSeeTheFuture;
+			productReference = EDFB1F6E1DD12339006A9523 /* ThreeWeatherManSeeTheFuture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFB1F661DD12338006A9523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Tong Lin";
+				TargetAttributes = {
+					EDFB1F6D1DD12339006A9523 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 7NBTE6SY4Z;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EDFB1F691DD12338006A9523 /* Build configuration list for PBXProject "ThreeWeatherManSeeTheFuture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDFB1F651DD12338006A9523;
+			productRefGroup = EDFB1F6F1DD12339006A9523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDFB1F6D1DD12339006A9523 /* ThreeWeatherManSeeTheFuture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFB1F6C1DD12339006A9523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB1F7C1DD12339006A9523 /* LaunchScreen.storyboard in Resources */,
+				EDFB1F791DD12339006A9523 /* Assets.xcassets in Resources */,
+				EDFB1F771DD12339006A9523 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDFB1F6A1DD12339006A9523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED47BA671DD13D2A0073DA79 /* APIRequestManager.swift in Sources */,
+				EDFB1F741DD12339006A9523 /* ViewController.swift in Sources */,
+				EDFB1F881DD12709006A9523 /* Weather.swift in Sources */,
+				ED6A0D201DD37C5F0011B8AC /* DataTypeManager.swift in Sources */,
+				ED6A0D1E1DD2C8B30011B8AC /* ForecastCollectionViewCell.swift in Sources */,
+				EDFB1F721DD12339006A9523 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDFB1F751DD12339006A9523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFB1F761DD12339006A9523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDFB1F7A1DD12339006A9523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFB1F7B1DD12339006A9523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDFB1F7E1DD12339006A9523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDFB1F7F1DD12339006A9523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDFB1F811DD12339006A9523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NBTE6SY4Z;
+				INFOPLIST_FILE = ThreeWeatherManSeeTheFuture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tonglin.t91-gmail.com.ThreeWeatherManSeeTheFuture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EDFB1F821DD12339006A9523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NBTE6SY4Z;
+				INFOPLIST_FILE = ThreeWeatherManSeeTheFuture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tonglin.t91-gmail.com.ThreeWeatherManSeeTheFuture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDFB1F691DD12338006A9523 /* Build configuration list for PBXProject "ThreeWeatherManSeeTheFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFB1F7E1DD12339006A9523 /* Debug */,
+				EDFB1F7F1DD12339006A9523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFB1F801DD12339006A9523 /* Build configuration list for PBXNativeTarget "ThreeWeatherManSeeTheFuture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFB1F811DD12339006A9523 /* Debug */,
+				EDFB1F821DD12339006A9523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDFB1F661DD12338006A9523 /* Project object */;
+}
